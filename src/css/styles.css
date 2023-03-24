@@ -12,9 +12,46 @@ body {
   line-height: 1.5;
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  gap: 20px;
+  background-color: #4b85bb;
+}
+
+.input {
+  padding: 10px ;
+}
+
+.submitBtn {
+  padding: 10px;
+}
+
+.gallery {
+width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.load-more {
+  padding: 15px;
+  background: #4b85bb;
+  color: white;
+  text-transform: uppercase;
 }
